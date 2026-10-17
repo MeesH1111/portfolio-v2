@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #faebd7;
+  background: linear-gradient(203deg, #faebd7 40%, #ff3ef759 100%);
+  /* background: repeating-linear-gradient(45deg, #f3f3f3, #f3f3f3 10px, #e5e5e5 10px, #e5e5e5 20px); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
