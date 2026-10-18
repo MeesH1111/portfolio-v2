@@ -7,12 +7,10 @@ export default function Homepage() {
     return (
         <div className="">
             <Navbar />
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center gap-10">
                 <Introtext />
-                <Contact />
-
-                {/* SimpleIcons voor icons */}
                 <Skills />
+                <Contact />
             </div>
         </div>
     )

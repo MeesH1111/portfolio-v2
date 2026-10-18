@@ -2,7 +2,7 @@ import SkillElement from "./skill-element";
 
 export default function Skills() {
     return (
-        <div className="flex flex-col items-center mt-30">
+        <div className="flex flex-col items-center">
             <p className="p-4 text-xl">Skills</p>
 
             <div className="flex gap-[20px] grid grid-cols-2 md:grid-cols-3">
@@ -18,3 +18,4 @@ export default function Skills() {
         </div>
     )
 }
+
