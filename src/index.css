@@ -1,5 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import "tailwindcss";
 @import 'tailwind-animations';
+
+@theme {
+  --font-josefin: "Josefin Sans", sans-serif;
+  --animate-stamp: fx-stamp 3.2s cubic-bezier(.22, 1.4, .36, 1);
+
+  @keyframes fx-stamp {
+
+    0%,
+    6% {
+      transform: rotate(-6deg) scale(2.4);
+      opacity: 0;
+      filter: blur(4px);
+    }
+
+    14% {
+      transform: rotate(-6deg) scale(.96);
+      opacity: 1;
+      filter: blur(0);
+    }
+
+    18% {
+      transform: rotate(-6deg) scale(1.04);
+    }
+
+    22%,
+    78% {
+      transform: rotate(-6deg) scale(1);
+      opacity: 1;
+      filter: blur(0);
+      letter-spacing: 0.14em;
+    }
+
+    94%,
+    100% {
+      transform: rotate(0deg) scale(1);
+      opacity: 1;
+      filter: blur(.6px);
+      letter-spacing: 0;
+    }
+  }
+}
 
 html {
   margin: 0px;

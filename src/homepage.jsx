@@ -7,7 +7,7 @@ export default function Homepage() {
     return (
         <div className="">
             <Navbar />
-            <div className="flex flex-col justify-center items-center gap-10">
+            <div className="flex flex-col justify-center items-center gap-10 mb-10">
                 <Introtext />
                 <Skills />
                 <Contact />
