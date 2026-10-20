@@ -6,7 +6,7 @@ export default function About() {
             <Navbar />
             <div className="flex justify-center">
                 <div className="max-w-[1000px] flex flex-col items-center mb-10">
-                    <h1 className="mb-20 text-[1.5em]">About</h1>
+                    <h1 className="mb-20 text-[1.5em] hover:text-[#000]/0 hover:text-shadow-[5px_2.5px_0_#d8115a8e,-5px_-2.5px_0_#11D88F] duration-300">About</h1>
 
                     {/* Foto van mij */}
                     <div className="flex flex-row gap-20">
