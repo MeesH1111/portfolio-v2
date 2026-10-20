@@ -7,10 +7,12 @@ export default function Homepage() {
     return (
         <div className="">
             <Navbar />
-            <div className="flex flex-col justify-center items-center gap-10 mb-10">
-                <Introtext />
-                <Skills />
-                <Contact />
+            <div className="w-full flex items-center justify-center">
+                <div className="flex flex-col gap-10 mb-10 max-w-[1000px]">
+                    <Introtext />
+                    <Skills />
+                    <Contact />
+                </div>
             </div>
         </div>
     )
