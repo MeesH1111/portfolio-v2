@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import "tailwindcss";
 @import 'tailwind-animations';
 
 @theme {
   --font-josefin: "Josefin Sans", sans-serif;
+  --font-lato: "Lato", sans-serif;
   --animate-stamp: fx-stamp 3.2s cubic-bezier(.22, 1.4, .36, 1);
 
   @keyframes fx-stamp {
@@ -61,4 +63,9 @@ body {
   /* background: repeating-linear-gradient(45deg, #f3f3f3, #f3f3f3 10px, #e5e5e5 10px, #e5e5e5 20px); */
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
 }
