@@ -7,7 +7,7 @@ export default function Projects() {
             <Navbar />
 
             <div className="flex justify-center items-center">
-                <div className="max-w-[1000px] flex flex-col items-center gap-2">
+                <div className="max-w-[1000px] flex flex-col items-center gap-2 mb-10">
                     <h1 className="mb-20 text-[1.5em]">Projects</h1>
 
                     <div className="flex grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">

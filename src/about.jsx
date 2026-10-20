@@ -5,7 +5,7 @@ export default function About() {
         <div>
             <Navbar />
             <div className="flex justify-center">
-                <div className="max-w-[1000px] flex flex-col items-center">
+                <div className="max-w-[1000px] flex flex-col items-center mb-10">
                     <h1 className="mb-20 text-[1.5em]">About</h1>
 
                     {/* Foto van mij */}
