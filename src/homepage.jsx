@@ -8,7 +8,7 @@ export default function Homepage() {
         <div className="">
             <Navbar />
             <div className="w-full flex items-center justify-center">
-                <div className="flex flex-col gap-10 mb-10 max-w-[1000px]">
+                <div className="flex flex-col gap-10 mb-10">
                     <Introtext />
                     <Skills />
                     <Contact />
