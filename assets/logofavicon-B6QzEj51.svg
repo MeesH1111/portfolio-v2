@@ -1,0 +1,17 @@
+<svg width="123" height="109" viewBox="0 0 123 109" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<use xlink:href="#stroke0_3101_9" fill="#D81159"/>
+<mask id="stroke1_3101_9" maskUnits="userSpaceOnUse" x="1" y="1" width="80" height="80" fill="black">
+<rect fill="white" x="1" y="1" width="80" height="80"/>
+<use xlink:href="#stroke0_3101_9"/>
+</mask>
+<path d="M6.75142 6.18182H16.8423L40.5696 64.1364H41.3878L65.1151 6.18182H75.206V76H67.2969V22.9545H66.6151L44.7969 76H37.1605L15.3423 22.9545H14.6605V76H6.75142V6.18182Z" stroke-width="10" stroke="black" mask="url(#stroke1_3101_9)"/>
+<path d="M54.9233 103V33.1818H63.3778V64.2727H100.605V33.1818H109.06V103H100.605V71.7727H63.3778V103H54.9233Z" fill="#8F2D56" fill-opacity="0.7"/>
+<mask id="stroke2_3101_9" maskUnits="userSpaceOnUse" x="53" y="32" width="58" height="72" fill="black">
+<rect fill="white" x="53" y="32" width="58" height="72"/>
+<path d="M54.9233 103V33.1818H63.3778V64.2727H100.605V33.1818H109.06V103H100.605V71.7727H63.3778V103H54.9233Z"/>
+</mask>
+<path d="M54.9233 103V33.1818H63.3778V64.2727H100.605V33.1818H109.06V103H100.605V71.7727H63.3778V103H54.9233Z" stroke-width="2" stroke="black" mask="url(#stroke2_3101_9)"/>
+<defs>
+<path id="stroke0_3101_9" d="M6.75142 6.18182H16.8423L40.5696 64.1364H41.3878L65.1151 6.18182H75.206V76H67.2969V22.9545H66.6151L44.7969 76H37.1605L15.3423 22.9545H14.6605V76H6.75142V6.18182Z"/>
+</defs>
+</svg>
