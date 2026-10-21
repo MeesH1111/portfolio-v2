@@ -9,7 +9,7 @@ import Testpage from './test.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio-v2">
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/about' element={<About />} />

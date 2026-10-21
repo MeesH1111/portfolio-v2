@@ -1,9 +1,11 @@
 import { Link } from "react-router";
 
-export default function ProjectCard({ thumbnail, technologies = [], name, description, github }) {
+import githubIcon from "../assets/skill-icons/github.svg";
+
+export default function ProjectCard({ technologies = [], name, description, github }) {
     return (
         <Link to={github} target="_blank" className="group h-full overflow-hidden bg-white flex flex-col rounded-[0.8em] shadow-[0_4px_8px_rgba(0,0,0,0.2)] hover:-translate-y-1 hover:shadow-[0_4px_8px_rgba(0,0,0,0.5)] duration-200 ease-[cubic-bezier(0.78,0,0.22,1)]">
-            {/* <img src={`src/assets/project-images/${thumbnail}`} className="w-full" /> */}
+            {/* <img src={thumbnailUrl} alt={`${name} project preview`} className="w-full" /> */}
 
             <div className="my-4 mx-4 flex flex-1 flex-col gap-4">
 
@@ -21,7 +23,7 @@ export default function ProjectCard({ thumbnail, technologies = [], name, descri
                     </div>
 
                     <div className="flex justify-end">
-                        <img src="src\assets\skill-icons\github.svg" width="24px" className="group-hover:animate-tada group-hover:scale-110 duration-200" />
+                        <img src={githubIcon} alt="" width="24" className="group-hover:animate-tada group-hover:scale-110 duration-200" />
                     </div>
                 </div>
             </div>
