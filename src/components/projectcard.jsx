@@ -16,14 +16,14 @@ export default function ProjectCard({ technologies = [], name, description, gith
 
                     <div className="flex flex-row flex-wrap gap-2">
                         {technologies.map((technology) => (
-                            <span key={technology} className="text-sm bg-[#d81159] text-white rounded-md py-[0.3em] px-[0.6em]">
+                            <span key={technology} className="text-sm bg-black/70 text-white rounded-md py-[0.3em] px-[0.6em] group-hover:bg-[#d81159] duration-200">
                                 {technology}
                             </span>
                         ))}
                     </div>
 
                     <div className="flex justify-end">
-                        <img src={githubIcon} alt="" width="24" className="group-hover:animate-tada group-hover:scale-110 duration-200" />
+                        <img src={githubIcon} alt="" width="24" className="group-hover:animate-tada group-hover:scale-110 duration-200 group-hover:blur-none" />
                     </div>
                 </div>
             </div>
