@@ -13,9 +13,10 @@ export default function Projects() {
                     <div className="flex grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
                         <ProjectCard technologies={["Laravel", "Tailwind CSS"]} name={'Laravel website'} description={"Website gemaakt met Laravel met een User en Admin rol, waar CRUD functionaliteit is toegepast. Met OWASP Top 10 beveiliging."} github={"https://github.com/MeesH1111/prg-05-Laravel-project"} />
                         <ProjectCard technologies={["React", "Vite", "Tailwind CSS", "MongoDB"]} name={'Full stack website'} description={"Frontend website gemaakt in React, met een backend RESTful Webservice."} github={"https://github.com/MeesH1111/prg06-praktijkopdracht-2"} />
-                        <ProjectCard technologies={["Javscript", "Vite"]} name={'Earthifacts'} description={"Adventure game gemaakt in Excalibur.js, een 2D TypeScript game engine, met een team van 4 personen."} github={"https://github.com/Justin4625/Earthifacts-CLE4"} />
+                        <ProjectCard technologies={["Typescript", "Vite"]} name={'Earthifacts'} description={"Adventure game gemaakt in Excalibur.js, een 2D TypeScript game engine, met een team van 4 personen."} github={"https://github.com/Justin4625/Earthifacts-CLE4"} />
                         <ProjectCard technologies={["React", "Vite", "Tailwind CSS"]} name={'Portfolio'} description={"Portfolio website oorspronkelijk gemaakt voor een keuzevak, maar nu regelmatig bijgehouden met nieuwe projecten en informatie over mijzelf."} github={"https://github.com/MeesH1111/portfolio-v2"} />
                         <ProjectCard technologies={["React Native", "Tailwind CSS", "Expo"]} name={'Street Skate Spots'} description={"React Native app met styling door middel van Tailwind CSS, waarbij ook gebruik gemaakt is van React Native Maps."} github={"https://github.com/MeesH1111/prg07-praktijkopdracht"} />
+                        <ProjectCard technologies={["Unity", "C#"]} name={'CheckR'} description={"Match 3 mobile game op een 45 graden gedraaid speelveld, waarbij blokken via links of rechts naar beneden glijden aan de hand van zwaartekracht."} github={"https://github.com/Irpear/Bladblazer"} />
                     </div>
                 </div>
             </div>
