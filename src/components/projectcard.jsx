@@ -10,9 +10,9 @@ export default function ProjectCard({ technologies = [], name, description, gith
             <div className="my-4 mx-4 flex flex-1 flex-col gap-4">
 
                 <div className="flex flex-col gap-4 h-full">
-                    <h2 className="text-3xl font-medium">{name}</h2>
+                    <h2 className="text-3xl font-bold">{name}</h2>
 
-                    <p className="flex-1">{description}</p>
+                    <p className="flex-1 text-[#000000a8]">{description}</p>
 
                     <div className="flex flex-row flex-wrap gap-2">
                         {technologies.map((technology) => (
