@@ -11,8 +11,8 @@ export default function Navbar() {
             </div>
 
             <div className="flex gap-6">
-                <Link to="/about" title="">About</Link>
-                <Link to="/projects" title="">Projects</Link>
+                <Link to="/about" title="" className="hover:-translate-y-1 duration-200 ease-[cubic-bezier(0.78,0,0.22,1)]">About</Link>
+                <Link to="/projects" title="" className="hover:-translate-y-1 duration-200 ease-[cubic-bezier(0.78,0,0.22,1)]">Projects</Link>
             </div>
         </nav>
     )
