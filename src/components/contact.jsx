@@ -6,9 +6,9 @@ export default function Contact() {
             <p className="p-4 text-xl">Contact</p>
 
             <div className="flex gap-[20px] grid grid-cols-2 sm:grid-cols-3">
-                <SkillElement icon={"linkedin.png"} name={"LinkedIn"} link={"https://www.linkedin.com/in/mees-hoff-web-developer/"} />
-                <SkillElement icon={"github.svg"} name={"GitHub"} link={"https://github.com/MeesH1111"} />
-                <SkillElement icon={"gmail.svg"} name={"Mail"} link={"mailto:meeshoff2006@gmail.com"} />
+                <SkillElement icon={"linkedin.png"} alt={""} name={"LinkedIn"} link={"https://www.linkedin.com/in/mees-hoff-web-developer/"} />
+                <SkillElement icon={"github.svg"} alt={""} name={"GitHub"} link={"https://github.com/MeesH1111"} />
+                <SkillElement icon={"gmail.svg"} alt={""} name={"Mail"} link={"mailto:meeshoff2006@gmail.com"} />
             </div>
         </div>
     )
