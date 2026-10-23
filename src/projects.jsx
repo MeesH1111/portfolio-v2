@@ -10,7 +10,7 @@ export default function Projects() {
                 <div className="max-w-[1000px] flex flex-col items-center gap-2 mb-10">
                     <h1 className="mb-20 text-3xl font-bold hover:text-[#000]/0 hover:text-shadow-[5px_2.5px_0_#d8115a8e,-5px_-2.5px_0_#11D88F] duration-300">My Projects</h1>
 
-                    <div className="flex grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+                    <div className="flex grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 max-lg:mx-4">
                         <ProjectCard technologies={["Laravel", "Tailwind CSS"]} name={'Laravel website'} description={"Website gemaakt met Laravel met een User en Admin rol, waar CRUD functionaliteit is toegepast. Met OWASP Top 10 beveiliging."} github={"https://github.com/MeesH1111/prg-05-Laravel-project"} />
                         <ProjectCard technologies={["React", "Vite", "Tailwind CSS", "MongoDB"]} name={'Full stack website'} description={"Frontend website gemaakt in React, met een backend RESTful Webservice."} github={"https://github.com/MeesH1111/prg06-praktijkopdracht-2"} />
                         <ProjectCard technologies={["Typescript", "Vite"]} name={'Earthifacts'} description={"Adventure game gemaakt in Excalibur.js, een 2D TypeScript game engine, met een team van 4 personen."} github={"https://github.com/Justin4625/Earthifacts-CLE4"} />

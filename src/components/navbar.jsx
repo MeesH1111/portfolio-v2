@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 export default function Navbar() {
     return (
-        <nav className="flex justify-between items-center text-[1.5em] p-[0.5em] mx-[1em] mb-[1em]">
+        <nav className="flex justify-between items-center text-[1.5em] p-[0.5em] mx-[1em] mb-[1em] max-sm:flex-col max-sm:gap-4 max-sm:underline">
             <div>
                 <Link to="/" title="">
                     <img src={logo} alt="Mees Hoff" width="176" className="hover:-translate-y-1 duration-200 ease-[cubic-bezier(0.78,0,0.22,1)]" />

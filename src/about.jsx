@@ -10,13 +10,13 @@ export default function About() {
                     <h1 className="mb-20 text-3xl font-bold hover:text-[#000]/0 hover:text-shadow-[5px_2.5px_0_#d8115a8e,-5px_-2.5px_0_#11D88F] duration-300">About Me</h1>
 
                     {/* Foto van mij */}
-                    <div className="flex flex-row gap-20">
+                    <div className="flex flex-row gap-20 max-md:flex-col max-md:items-center max-md:">
                         <div>
                             <img src={personalPicture} alt="Mees Hoff" width="200" className="rounded-lg shadow-[0_4px_8px_rgba(0,0,0,0.2)] hover:-translate-y-1 hover:shadow-[0_4px_8px_rgba(0,0,0,0.5)] duration-200 ease-[cubic-bezier(0.78,0,0.22,1)]" />
                         </div>
 
                         {/* Wie ik ben en wat ik nu aan het doen ben */}
-                        <div className="flex flex-col gap-4 max-w-[500px]">
+                        <div className="flex flex-col gap-4 max-w-[500px] max-md:mx-4">
                             <p class="abouttext">
                                 Ik ben Mees en zit nu in het vierde jaar van de studie CMGT op
                                 Hogeschool Rotterdam. Hier doe ik dingen die te maken hebben met het

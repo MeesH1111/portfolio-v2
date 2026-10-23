@@ -5,7 +5,7 @@ export default function Skills() {
         <div className="flex flex-col items-center">
             <p className="p-4 text-xl">Skills</p>
 
-            <div className="flex gap-[20px] grid grid-cols-2 md:grid-cols-3">
+            <div className="flex gap-[20px] grid grid-cols-2 sm:grid-cols-3">
                 <SkillElement icon={'html5.svg'} name={"HTML/CSS"} link={"https://developer.mozilla.org/en-US/docs/Web/HTML"} />
                 <SkillElement icon={'javascript.svg'} name={"JavaScript"} link={"https://developer.mozilla.org/en-US/docs/Web/JavaScript"} />
                 <SkillElement icon={'tailwindcss.svg'} name={"Tailwind CSS"} link={"https://tailwindcss.com/"} />
